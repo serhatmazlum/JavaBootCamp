@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 public class Candidate extends User {
 	
-	private int id;
+	private long id;
 	private String firstName;
 	private String lastName;
 	private String identityNumber;

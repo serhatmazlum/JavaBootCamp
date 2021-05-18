@@ -17,7 +17,7 @@ public class JobPosition implements bootcamp.hrms.entities.abstracts.JobPosition
 	@Id
 	@GeneratedValue
 	@Column(name = "id")
-	private int id;
+	private long id;
 	
 	@Column(name = "jobs")
 	private String jobPosition;

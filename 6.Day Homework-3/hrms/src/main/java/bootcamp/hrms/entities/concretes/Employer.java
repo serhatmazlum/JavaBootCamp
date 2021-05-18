@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 public class Employer extends User {
 
-	private int id;
+	private long id;
 	private String companyName;
 	private String webAddress;
 	private String phoneNumber;

@@ -6,7 +6,7 @@ import lombok.Data;
 public class User implements bootcamp.hrms.entities.abstracts.User {
 
 
-	private int id;
+	private long id;
 	private String email;
 	private String password;
 	
