@@ -1,8 +1,8 @@
-package inheritance3;
+
 
 public class EmployeeManager extends PersonManager {
 
-	public void BestEmployee() {
-		System.out.println("Ayın elemanı");
+	public void BestEmployee(Person person) {
+		System.out.println("Ayin elemani: "+person.getName());
 	}
 }

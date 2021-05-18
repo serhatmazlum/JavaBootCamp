@@ -1,20 +1,17 @@
-package inheritance3;
 
 public class Main {
-	public static  void main(String[] args) {
-		
-		Customer customer = new Customer();
-		Employee employee = new Employee();
-		EmployeeManager employeeMaanger = new EmployeeManager();
-		CustomerManager customerManager = new CustomerManager();
-		employeeMaanger.Add();
-		customerManager.Add();
-		
-	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 
 		
+		Person person = new Person(1, "serhat", "serhat@gmail.com");
 		
+		PersonManager personManager = new PersonManager();
+		personManager.Add(person);
 		
+		CustomerManager customerManager = new CustomerManager();
+		customerManager.Add(person);
 	}
 
 }
